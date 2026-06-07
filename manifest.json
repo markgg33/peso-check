@@ -1,0 +1,22 @@
+{
+  "name": "Peso Check",
+  "short_name": "Peso Check",
+  "description": "Monitor your daily expenses and spending.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FFC507",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+/* =====================================
+   GLOBAL THEME VARIABLES
+===================================== */
+
+:root {
+  --primary-color: #ffc507;
+  --secondary-color: #65a70f;
+
+  --bg-color: #f5f7fb;
+  --card-bg: #ffffff;
+
+  --text-color: #222222;
+  --text-muted: #777777;
+
+  --nav-bg: #ffffff;
+}
+
+/* =====================================
+   DARK MODE
+===================================== */
+
+[data-theme="dark"] {
+  --bg-color: #161616;
+
+  --card-bg: #232323;
+
+  --text-color: #ffffff;
+
+  --text-muted: #bcbcbc;
+
+  --nav-bg: #232323;
+}

@@ -1,0 +1,78 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ffc507, #65a70f);
+  min-height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  border-radius: 20px;
+  padding: 25px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.image-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cdp-bt-logo {
+  width: 220px;
+}
+
+.form-control {
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.btn-login {
+  background: linear-gradient(135deg, #ffc507, #65a70f);
+  border: none;
+  padding: 12px;
+  border-radius: 12px;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  transform: translateY(-2px);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+  opacity: 0.95;
+}
+
+/* PASSWORD TOGGLE */
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: gray;
+  transition: 0.3s;
+}
+
+.password-toggle:hover {
+  color: #65a70f;
+}
