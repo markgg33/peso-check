@@ -434,6 +434,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
       formData.append("amount", document.getElementById("editAmount").value);
 
+      formData.append(
+        "expense_date",
+        document.getElementById("editExpenseDate").value,
+      );
+
       formData.append("notes", document.getElementById("editNotes").value);
 
       try {
